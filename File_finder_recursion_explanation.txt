@@ -1,0 +1,5 @@
+This file finder function uses recursion to find all files with the given file name suffix.
+Time complexity will depend 1) the number of branches 'b' and the depth 'd' for each branch.
+This is O(b^d). And 2) os.listdir(path) has to iterate through a list of n items, which worst-case and average-case is O(n) time. 
+So the total time complexity is O(b^d)*n
+Space complexity will depend on the depth 'd' since the recursive function call stack has to transverse every directory and on the space complexity of traversing our name_of_entires list , which is O(n). So our space complexity is O(d + n)
