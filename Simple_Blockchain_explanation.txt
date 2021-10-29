@@ -1,0 +1,1 @@
+Performance of calc_hash and append function will be O(1) in the worst case. Performance of the toList function to convert the blockchain to a list will be O(n) in the worst case, because of iteration across the entire list. Total space complexity in the worst case is O(n). Space complexity will be O(n) based on the number of elements put into the blockchain 
